@@ -142,11 +142,103 @@ svg.custom {
     margin: 0 2rem;
   }
 
-  .cartds {
-    
+  .cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fff;
+    border-left: 0.5rem solid #facc15;
+    border-radius: 1rem;
+    width: 60%;
+    height: 17rem;
+    margin: 2.5rem 0;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+  }
+
+  .card p {
+    font-size: 1.6rem;
+    color: #737373;
+    margin: 1rem 0;
+  }
+
+  .card h3, .ann-text h3 {
+    font-size: 1.8rem;
+  } 
   
+  .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+  }
+
+  .projects h2 {
+    font-size: 1.8rem;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  .ann-trend {
+    display: grid;
+    grid-template-rows: 50% 50%;
+  }
+
+  .ann-card, .trend-card {
+    width: 60%;
+    height: 80%;
+    padding-top: 0.2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+  }
+
+  .ann h2, .trend h2 {
+    font-size: 1.8rem;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .ann-text {
+    padding: 1rem 1.5rem;
+  }
+
+  .ann-text h3, .trend-text h3 {
+    font-size: 1.4rem;
+  }
+
+  .ann-text p, .trend-text p {
+    font-size: 1.2rem;
+    color: #737373;
+  }
+
+  .divider {
+    border: 0.025rem solid #737373;
+    width: 80%;
+    margin-left: 2rem;
+  }
+
+  .trend-image-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.5rem 2rem;
+  }
+
+  .trend-image-text img {
+    width: 5rem;
+  }
+
+  .trend-text {
+    margin-left: 2.5rem;
+  }
 
  
 
