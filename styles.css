@@ -85,10 +85,12 @@ svg.custom {
   }
 
   .content {
+    display: grid;
+    grid-template-columns: 70% 30%;
     background-color: #d4d4d4;
   }
 
-  .navbar {
+  .navbar, .left {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -107,14 +109,44 @@ svg.custom {
     border: 0.1rem solid #d4d4d4;
     border-radius: 1rem;
     margin-left: 2rem;
-    margin-right: 20rem;
-  }
-
-  .avatar-navbar {
-    margin: 0 2rem;
+    margin-right: 72rem;
   }
 
   .welcome {
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 2rem;
   }
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    margin-right: 3rem;
+  }
+
+  .btn {
+    background-color: #0ea5e9;
+    width: 7rem;
+    height: 3.5rem;
+    color: #fff;
+    border: 0.1rem solid #0ea5e9;
+    border-radius: 2rem;
+  }
+
+  .avatar-navbar, .welcome-avatar  {
+    margin: 0 2rem;
+  }
+
+  .cartds {
+    
+  }
+
+  
+
+ 
 
